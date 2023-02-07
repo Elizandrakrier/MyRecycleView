@@ -18,7 +18,7 @@ class ProfileInfosAdapter : RecyclerView.Adapter<ProfileInfosAdapter.ProfileInfo
         ProfileInfos("Jorge", "13/12", "Curitiba"),
         ProfileInfos("Maria", "04/02", "São Paulo"),
         ProfileInfos("Jennifer", "21/08", "Maranhão"),
-        ProfileInfos("Leticia", "17/12", "Recife"),
+        ProfileInfos("Leticias", "17/12", "Recife"),
     )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProfileInfosViewHolder {
