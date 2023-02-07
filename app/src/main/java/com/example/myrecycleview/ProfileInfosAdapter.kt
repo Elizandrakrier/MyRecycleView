@@ -9,19 +9,16 @@ import androidx.recyclerview.widget.RecyclerView
 class ProfileInfosAdapter : RecyclerView.Adapter<ProfileInfosAdapter.ProfileInfosViewHolder>() {
 
     private val profileInfoList = listOf<ProfileInfos>(
-        ProfileInfos("Elizandra Krier", "12/07", "São Paulo"),
-        ProfileInfos("Bruno Krier", "29/11", "Rio de Janeiro"),
-        ProfileInfos("Mário Dias", "15/08", "São Paulo"),
-        ProfileInfos("Karen Miuki", "19/08", "São Paulo"),
-        ProfileInfos("Leticia Manfre", "26/06", "São Paulo"),
-        ProfileInfos("Bruno Krier", "29/11", "Rio de Janeiro"),
-        ProfileInfos("Mário Dias", "15/08", "São Paulo"),
-        ProfileInfos("Karen Miuki", "19/08", "São Paulo"),
-        ProfileInfos("Leticia Manfre", "26/06", "São Paulo"),
-        ProfileInfos("Bruno Krier", "29/11", "Rio de Janeiro"),
-        ProfileInfos("Mário Dias", "15/08", "São Paulo"),
-        ProfileInfos("Karen Miuki", "19/08", "São Paulo"),
-        ProfileInfos("Leticia Manfre", "26/06", "São Paulo")
+        ProfileInfos("Camila", "22/07", "Bahia"),
+        ProfileInfos("Jorge", "13/12", "Curitiba"),
+        ProfileInfos("Maria", "04/02", "São Paulo"),
+        ProfileInfos("Jennifer", "21/08", "Maranhão"),
+        ProfileInfos("Leticia", "17/12", "Recife"),
+        ProfileInfos("Camila", "22/07", "Bahia"),
+        ProfileInfos("Jorge", "13/12", "Curitiba"),
+        ProfileInfos("Maria", "04/02", "São Paulo"),
+        ProfileInfos("Jennifer", "21/08", "Maranhão"),
+        ProfileInfos("Leticia", "17/12", "Recife"),
     )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProfileInfosViewHolder {
